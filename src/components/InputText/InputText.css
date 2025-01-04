@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inputText{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 25%;
+}
+
+.inputText input{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    border: solid 1px #646cff;
+}
+.inputText button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #646cff;
+    color: #fff;
+    cursor: pointer;
+}
